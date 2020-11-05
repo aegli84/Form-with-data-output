@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body {
+    min-height: 100vh;
+    margin: auto;
+    background-image: url(./assets/fabian-blank-pElSkGRA2NU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 240vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+form {
+    background-color: #000000;
+    display: inline-block;
+    margin-left: 30vmin;
+    margin-top: 10vmin;
+    width: 70vh;
+    height: 70vh;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #313131,
+    -20px -20px 60px #fffffff6;
+}
+
+fieldset {
+    border: none;
+    margin-top: 3vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    align-items: left;
+}
+
+legend {
+    font-size: x-large;
+    font-weight: 600;
+    margin-bottom: 5vh;
+}
+
+input {
+    display: inline-block;
+    justify-content: center;
+    color:white;
+}
+
+
+input, option, select, option {
+    background-color: #f0f0f000;
+    border: none;
+    border-bottom: 3px solid #a7ccd5;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+
+textarea, select {
+    background-color: #f0f0f000;
+    color:rgb(136, 136, 136);
+}
+
+#button {
+    background-color: #FBD3C7;
+    width: 20vh;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#button:hover {
+    background-color: #a7ccd5;
+    border-bottom: 3px solid #a7ccd5;
+}
+
+table {
+    background-color: #a7ccd5;
+    display: inline-block;
+    margin-top: -20vmin;
+    margin-left: 50vmin;
+    width: 70vh;
+    height: 30vh;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #313131,
+    -20px -20px 60px #ffffff23;
+    
+}
+
