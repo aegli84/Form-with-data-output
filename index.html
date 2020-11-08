@@ -12,7 +12,7 @@
         <fieldset>
             <legend>Budget</legend>
 
-            <label for="amount">Amount</label>
+            <label for="amount"><p>Amount</p></label>
             <input type="amount" id="amount" name="amount">
             
             <select name="currency" id="cur">
@@ -21,21 +21,21 @@
                 <option value="chf" id="french">CHF</option>
                 <option value="gbp" id="pound">GBP</option>
             </select>
-        <br><br>
-            <label for="exp">Notes</label>
-            <textarea type="text"name="message" id="exp" cols="40" rows="4" placeholder="Type here"></textarea>
-        <br>
+        
+            <label for="exp"><p>Notes</p></label>
+            <textarea type="text"name="message" id="exp" cols="35" rows="4" placeholder="Type here"></textarea>
+        
             <label for="date">Date</label>
             <input type="date" name="date" id="date">
-        <br>
-            Type
+    
+            <p>Type</p>
             <input type="radio" id="outcome" value="outcome">
             <label for="outcome">Outcome</label>
             
             <input type="radio" id="income" value="income">
             <label for="income">Income</label>
-        <br>
-            For
+        
+            <p>For</p>
             <input type="checkbox" id="myself" value="myself">
             <label for="myself">Myself</label>
 
@@ -44,13 +44,13 @@
 
             <input type="checkbox" id="friend" value="friend">
             <label for="friend">Friend</label>
-            <br> <br>
-            <input type="button" id="button" value="Calculate">
+            
+            <input type="submit" id="button" value="Calculate">
         </fieldset>
     </form>
 
         <table>
-            <thead>
+            <thead id="header">
                 <tr>
                     <th>Date</th>
                     <th>Amount</th>
@@ -60,7 +60,11 @@
                 </tr>
             </thead>
             <tbody id="data">
-
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tbody>
         </table>
     
