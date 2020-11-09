@@ -81,6 +81,7 @@ textarea, select {
 
 #button {
     margin-top: 20px;
+    margin-left: 2vh;
     background-color: #959c9d;
     width: 40vh;
     height: 45px;
