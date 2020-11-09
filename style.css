@@ -27,7 +27,6 @@ form, table {
     -5px -5px 10px #abb3b5;
 }
 
-
 fieldset {
     border: none;
     margin-top: 5vh;
@@ -100,6 +99,15 @@ table {
     margin-top: 5vh;
 }
 
+
+thead, tbody {
+    display: block;
+}
+tbody {
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
 #header >tr > th {
     justify-content: left;
     text-align: left;
