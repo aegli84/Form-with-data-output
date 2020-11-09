@@ -151,18 +151,18 @@ tbody {
 
 
 #header >tr > th {
-    padding-top: 5vh;
+    padding-top: 3vh;
     padding-left: 1vh;
     font-weight: bold;
     display: inline-table;
-    margin-right: 18px;
-    margin-left: -5px;
+    margin-right: 7px;
+    margin-left: 2px;
 }
 
 td {
     border: 1px solid #7f8585;
     border-radius: 0.5vh;
-    line-height: 5vh;
+    line-height: 3vh;
     
 }
 
@@ -210,7 +210,7 @@ td {
         width: 50vh;
         height: 60vh;
         margin-left: 0;
-        margin-right: 0vh;
+        margin-right: 15vh;
     }
 
     #date {
