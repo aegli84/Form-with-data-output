@@ -81,6 +81,7 @@ textarea, select {
 
 #button {
     margin-top: 20px;
+    margin-left: 2vh;
     background-color: #959c9d;
     width: 40vh;
     height: 45px;
@@ -110,12 +111,6 @@ td {
     border: 1px solid #7f8585;
     border-radius: 1vh;
     line-height: 5vh;
-}
-
-#data {
-    justify-content: left;
-    text-align: left;
-    padding-top: 5vh;
 }
 
 #data > td {
@@ -162,7 +157,7 @@ td {
         width: 50vh;
         height: 60vh;
         margin-left: 0;
-        margin-right: 20vh;
+        margin-right: 0vh;
     }
 
     #date {
