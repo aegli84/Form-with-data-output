@@ -121,7 +121,7 @@ table {
 thead, tbody {
     display: block;
     margin-left: 4vh;
-    margin-right: 0.5vh;
+    margin-right: 1vh;
 }
 tbody {
     height: 420px;
@@ -156,7 +156,6 @@ tbody {
     font-weight: bold;
     display: inline-table;
     margin-right: 7px;
-    margin-left: 2px;
 }
 
 td {
