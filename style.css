@@ -15,7 +15,7 @@ body {
 
 form, table {
     background-color:#959c9d;
-    display: inline-block;
+    display: block;
     margin-left: 20vmin;
     margin-right: 10vmin;
     margin-top: 5vmin;
@@ -25,6 +25,15 @@ form, table {
     border-radius: 50px;
     box-shadow: 5px 5px 10px #7f8585,
     -5px -5px 10px #abb3b5;
+    transition: height 2s, background-color 4s, width 3s;
+    transition-delay: 0.3s;
+}
+
+form:hover, table:hover {
+    width: 400px;
+    height: 600px;
+    background-color: #c2c5c579;
+    
 }
 
 fieldset {
@@ -38,9 +47,11 @@ fieldset {
 legend {
     font-size: x-large;
     font-weight: 600;
-    
 }
 
+input:hover, textarea:hover, select:hover {
+    border: 3px solid #89C4CC;
+}
 p {
     margin-top: 5px;
     margin-bottom: 8px;
@@ -49,6 +60,7 @@ p {
 label {
     font-weight: 400;
 }
+
 #cur{
     background-color: #959c9d;
 }
@@ -57,6 +69,7 @@ select {
 }
 textarea {
     margin-bottom: 2vh;
+    font-family: 'Poppins', sans-serif;
 }
 
 #date {
@@ -92,33 +105,65 @@ textarea, select {
 
 #button:hover {
     background-color: #2F55D0;
+    width: 20vh;
+    height: 45px;
+    transition: height 2s, background-color 1s, width 3s;
+    transition-delay: 0.5s;
+    color: #d4a181;
 }
 
 
 table {
     margin-top: 5vh;
+    border-spacing: 4px;
 }
-
 
 thead, tbody {
     display: block;
+    margin-left: 4vh;
+    margin-right: 0.5vh;
 }
 tbody {
-    height: 400px;
+    height: 420px;
     overflow-y: auto;
     overflow-x: hidden;
 }
+
+/* Scrollbar styling >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #2f55d0ce; 
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #2f55d0c7; 
+}
+
+
 #header >tr > th {
-    justify-content: left;
-    text-align: left;
     padding-top: 5vh;
     padding-left: 1vh;
+    font-weight: bold;
+    display: inline-table;
+    margin-right: 18px;
+    margin-left: -5px;
 }
 
 td {
     border: 1px solid #7f8585;
-    border-radius: 1vh;
+    border-radius: 0.5vh;
     line-height: 5vh;
+    
 }
 
 #data > td {
